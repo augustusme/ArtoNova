@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		802F743C29D6921200189415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F743B29D6921200189415 /* AppDelegate.swift */; };
-		802F743E29D6921200189415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F743D29D6921200189415 /* SceneDelegate.swift */; };
-		802F744029D6921200189415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F743F29D6921200189415 /* ViewController.swift */; };
-		802F744329D6921200189415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802F744129D6921200189415 /* Main.storyboard */; };
+		801D42B629E648E100B2A8B7 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 801D42B529E648E100B2A8B7 /* info.plist */; };
+		801D42B929E6520C00B2A8B7 /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = 801D42B829E6520C00B2A8B7 /* FacebookAEM */; };
+		801D42BB29E6520C00B2A8B7 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 801D42BA29E6520C00B2A8B7 /* FacebookBasics */; };
+		801D42BD29E6520C00B2A8B7 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 801D42BC29E6520C00B2A8B7 /* FacebookCore */; };
+		801D42BF29E6520C00B2A8B7 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 801D42BE29E6520C00B2A8B7 /* FacebookLogin */; };
+		801D42C129E6520C00B2A8B7 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 801D42C029E6520C00B2A8B7 /* FacebookShare */; };
+		801D42C429E777AE00B2A8B7 /* FbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D42C329E777AE00B2A8B7 /* FbViewController.swift */; };
+		801D42C529E777AE00B2A8B7 /* FbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D42C329E777AE00B2A8B7 /* FbViewController.swift */; };
+		801D42C629E777AE00B2A8B7 /* FbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D42C329E777AE00B2A8B7 /* FbViewController.swift */; };
+		801DD98029DD148F0040B494 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DD97F29DD148F0040B494 /* App.swift */; };
+		802F744029D6921200189415 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F743F29D6921200189415 /* LoginView.swift */; };
 		802F744629D6921200189415 /* ArtoNova.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 802F744429D6921200189415 /* ArtoNova.xcdatamodeld */; };
 		802F744829D6921400189415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802F744729D6921400189415 /* Assets.xcassets */; };
 		802F744B29D6921400189415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802F744929D6921400189415 /* LaunchScreen.storyboard */; };
@@ -37,15 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		801D42B529E648E100B2A8B7 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		801D42C229E6553700B2A8B7 /* ArtoNova.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtoNova.entitlements; sourceTree = "<group>"; };
+		801D42C329E777AE00B2A8B7 /* FbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FbViewController.swift; sourceTree = "<group>"; };
+		801DD97F29DD148F0040B494 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		802F743829D6921200189415 /* ArtoNova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtoNova.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		802F743B29D6921200189415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		802F743D29D6921200189415 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		802F743F29D6921200189415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		802F744229D6921200189415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		802F743F29D6921200189415 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		802F744529D6921200189415 /* ArtoNova.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtoNova.xcdatamodel; sourceTree = "<group>"; };
 		802F744729D6921400189415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		802F744A29D6921400189415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		802F744C29D6921400189415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		802F745129D6921400189415 /* ArtoNovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtoNovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		802F745529D6921400189415 /* ArtoNovaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtoNovaTests.swift; sourceTree = "<group>"; };
 		802F745B29D6921400189415 /* ArtoNovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtoNovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +65,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801D42BF29E6520C00B2A8B7 /* FacebookLogin in Frameworks */,
+				801D42B929E6520C00B2A8B7 /* FacebookAEM in Frameworks */,
+				801D42BD29E6520C00B2A8B7 /* FacebookCore in Frameworks */,
+				801D42C129E6520C00B2A8B7 /* FacebookShare in Frameworks */,
+				801D42BB29E6520C00B2A8B7 /* FacebookBasics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +113,14 @@
 		802F743A29D6921200189415 /* ArtoNova */ = {
 			isa = PBXGroup;
 			children = (
-				802F743B29D6921200189415 /* AppDelegate.swift */,
-				802F743D29D6921200189415 /* SceneDelegate.swift */,
-				802F743F29D6921200189415 /* ViewController.swift */,
-				802F744129D6921200189415 /* Main.storyboard */,
+				801D42C229E6553700B2A8B7 /* ArtoNova.entitlements */,
+				801D42B529E648E100B2A8B7 /* info.plist */,
+				802F743F29D6921200189415 /* LoginView.swift */,
 				802F744729D6921400189415 /* Assets.xcassets */,
 				802F744929D6921400189415 /* LaunchScreen.storyboard */,
-				802F744C29D6921400189415 /* Info.plist */,
 				802F744429D6921200189415 /* ArtoNova.xcdatamodeld */,
+				801DD97F29DD148F0040B494 /* App.swift */,
+				801D42C329E777AE00B2A8B7 /* FbViewController.swift */,
 			);
 			path = ArtoNova;
 			sourceTree = "<group>";
@@ -146,6 +158,13 @@
 			dependencies = (
 			);
 			name = ArtoNova;
+			packageProductDependencies = (
+				801D42B829E6520C00B2A8B7 /* FacebookAEM */,
+				801D42BA29E6520C00B2A8B7 /* FacebookBasics */,
+				801D42BC29E6520C00B2A8B7 /* FacebookCore */,
+				801D42BE29E6520C00B2A8B7 /* FacebookLogin */,
+				801D42C029E6520C00B2A8B7 /* FacebookShare */,
+			);
 			productName = ArtoNova;
 			productReference = 802F743829D6921200189415 /* ArtoNova.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +237,9 @@
 				Base,
 			);
 			mainGroup = 802F742F29D6921200189415;
+			packageReferences = (
+				801D42B729E6520C00B2A8B7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 802F743929D6921200189415 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,7 +258,7 @@
 			files = (
 				802F744B29D6921400189415 /* LaunchScreen.storyboard in Resources */,
 				802F744829D6921400189415 /* Assets.xcassets in Resources */,
-				802F744329D6921200189415 /* Main.storyboard in Resources */,
+				801D42B629E648E100B2A8B7 /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802F744029D6921200189415 /* ViewController.swift in Sources */,
-				802F743C29D6921200189415 /* AppDelegate.swift in Sources */,
-				802F743E29D6921200189415 /* SceneDelegate.swift in Sources */,
+				801D42C429E777AE00B2A8B7 /* FbViewController.swift in Sources */,
+				802F744029D6921200189415 /* LoginView.swift in Sources */,
+				801DD98029DD148F0040B494 /* App.swift in Sources */,
 				802F744629D6921200189415 /* ArtoNova.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801D42C529E777AE00B2A8B7 /* FbViewController.swift in Sources */,
 				802F745629D6921400189415 /* ArtoNovaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				802F746229D6921400189415 /* ArtoNovaUITestsLaunchTests.swift in Sources */,
+				801D42C629E777AE00B2A8B7 /* FbViewController.swift in Sources */,
 				802F746029D6921400189415 /* ArtoNovaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		802F744129D6921200189415 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				802F744229D6921200189415 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		802F744929D6921400189415 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,14 +455,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArtoNova/ArtoNova.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99N49DABXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArtoNova/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationUsageDescription = "heading for example SwiftUI code";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "heading for example SwiftUI code";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,14 +488,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArtoNova/ArtoNova.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99N49DABXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArtoNova/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationUsageDescription = "heading for example SwiftUI code";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "heading for example SwiftUI code";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,6 +632,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		801D42B729E6520C00B2A8B7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		801D42B829E6520C00B2A8B7 /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 801D42B729E6520C00B2A8B7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		801D42BA29E6520C00B2A8B7 /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 801D42B729E6520C00B2A8B7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		801D42BC29E6520C00B2A8B7 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 801D42B729E6520C00B2A8B7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		801D42BE29E6520C00B2A8B7 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 801D42B729E6520C00B2A8B7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		801D42C029E6520C00B2A8B7 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 801D42B729E6520C00B2A8B7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		802F744429D6921200189415 /* ArtoNova.xcdatamodeld */ = {
